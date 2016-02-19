@@ -14,42 +14,42 @@ fields = [
         'col_type': db.String(256),
         'display_text': 'Instrument name',
         'description': 'Instrument name',
-        'required': True
+        'required': False
     },
     {
         'name': 'kindat',
         'col_type': db.String(256),
         'display_text': 'kindat',
         'description': 'kindat',
-        'required': True
+        'required': False
     },
     {
         'name': 'start_time',
         'col_type': db.String(256),
         'display_text': 'Start time',
         'description': 'Timeserie start time',
-        'required': True
+        'required': False
     },
     {
         'name': 'end_time',
         'col_type': db.String(256),
         'display_text': 'End time',
         'description': 'Timeserie end time',
-        'required': True
+        'required': False
     },
     {
         'name': 'kind_of_data_file',
         'col_type': db.String(256),
         'display_text': 'Kind of data file',
         'description': 'Kind of data file',
-        'required': True
+        'required': False
     },
     {
         'name': 'status',
         'col_type': db.String(256),
         'display_text': 'Status description',
         'description': 'Status description',
-        'required': True
+        'required': False
     },
     {
         # TODO: Should be joined w/ 'longitude'
@@ -57,7 +57,7 @@ fields = [
         'col_type': db.String(256),
         'display_text': 'Instrument latitude',
         'description': 'Instrument latitude',
-        'required': True
+        'required': False
     },
     {
         # TODO: Should be joined w/ 'latitude'
@@ -65,13 +65,13 @@ fields = [
         'col_type': db.String(256),
         'display_text': 'Instrument longitude',
         'description': 'Instrument longitude',
-        'required': True
+        'required': False
     },
     {
         'name': 'altitude',
         'col_type': db.String(256),
         'display_text': 'Instrument altitude',
         'description': 'Instrument altitude',
-        'required': True
+        'required': False
     },
 ]
